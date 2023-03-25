@@ -38,7 +38,7 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/" element={<Perpetual />} />
               <Route path="/perpetual" element={<Perpetual />} />
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
